@@ -2,63 +2,61 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KKLabへようこそ</title>
-  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KKLabへようこそ</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 </head>
 
 <body>
 
-  <!-- This is the first page -->
-  <div id="firstpage" data-role="page">
-    <div data-role="toolbar" data-type="header">
-      <h1>KKLabへようこそ</h1>
+    <!-- This is the first page -->
+    <div id="firstpage" data-role="page">
+        <div data-role="toolbar" data-type="header">
+            <h1>KKLabへようこそ</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>KKLabの実験サイト</p>
+            <p><a href="#secondpage">メンバー一覧</a></p>
+            <p><a href="members/">（旧ページ）メンバー一覧</a></p>
+        </div>
+        <div data-role="toolbar" data-type="footer">
+            <h2>(c) KKLab</h2>
+        </div>
     </div>
-    <div role="main" class="ui-content">
-      <p>KKLabの実験サイト</p>
-      <p><a href="#secondpage">メンバー一覧</a></p>
-      <p><a href="members/">（旧ページ）メンバー一覧</a></p>
-    </div>
-    <div data-role="toolbar" data-type="footer">
-      <h2>(c) KKLab</h2>
-    </div>
-  </div>
 
-  <!-- This is the second page -->
-  <div id="secondpage" data-role="page">
-    <div data-role="toolbar" data-type="header">
-      <h1>メンバー一覧</h1>
-    </div>
-    <div class="ui-content" role="main">
-      <p>メンバー一覧</p>
-      <ul>
-        <li>Senior</li>
-        <li><a href="http://ada5456.github.io/">ada5456</a></li>
-        <li><a href="http://wkou.github.io/">wkou</a></li>
-        <li><a href="http://zero440.github.io/">zero440</a></li>
-        <li><a href="http://BetaoriMachine.github.io/">BetaoriMachine</a></li>
-        <li><a href="http://cyan0708.github.io/">cyan0708</a></li>
-        <li><a href="http://TNiiya.github.io/">TNiiya</a></li>
-        <li><a href="http://yuki724.github.io/">yuki724</a></li>
-        <li>Junior</li>
-        <li><a href="http://Sachi0519.github.io/">Sachi0519</a></li>
-        <li><a href="http://ri-no.github.io/">ri-no</a></li>
-        <li><a href="http://kanobx5.github.io/">kanobx5</a></li>
-        <li><a href="http://kaori25.github.io/">kaori25</a></li>
-        <li><a href="http://SN0504.github.io/">SN0504</a></li>
-        <li><a href="http://RTakagi.github.io/">RTakagi</a></li>
-        <li><a href="http://harunyaaa.github.io/">harunyaaa</a></li>
-        <li><a href="http://RGM89.github.io/">RGM89</a></li>
-      </ul>
-      <p><a href="#firstpage">ホームへ</a></p>
+    <!-- This is the second page -->
+    <div id="secondpage" data-role="page">
+        <div data-role="toolbar" data-type="header">
+            <h1>メンバー一覧</h1>
+        </div>
+        <ul id="list" class="touch" data-role="listview">
+            <li>Senior</li>
+            <li><a href="http://ada5456.github.io/">ada5456</a></li>
+            <li><a href="http://wkou.github.io/">wkou</a></li>
+            <li><a href="http://zero440.github.io/">zero440</a></li>
+            <li><a href="http://BetaoriMachine.github.io/">BetaoriMachine</a></li>
+            <li><a href="http://cyan0708.github.io/">cyan0708</a></li>
+            <li><a href="http://TNiiya.github.io/">TNiiya</a></li>
+            <li><a href="http://yuki724.github.io/">yuki724</a></li>
+            <li>Junior</li>
+            <li><a href="http://Sachi0519.github.io/">Sachi0519</a></li>
+            <li><a href="http://ri-no.github.io/">ri-no</a></li>
+            <li><a href="http://kanobx5.github.io/">kanobx5</a></li>
+            <li><a href="http://kaori25.github.io/">kaori25</a></li>
+            <li><a href="http://SN0504.github.io/">SN0504</a></li>
+            <li><a href="http://RTakagi.github.io/">RTakagi</a></li>
+            <li><a href="http://harunyaaa.github.io/">harunyaaa</a></li>
+            <li><a href="http://RGM89.github.io/">RGM89</a></li>
+        </ul>
+        <p><a href="#firstpage">ホームへ</a></p>
     </div>
     <div data-role="toolbar" data-type="footer">
-      <h4>(c) KKLab</h4>
+        <h4>(c) KKLab</h4>
     </div>
-  </div>
+    </div>
 
 </body>
 
