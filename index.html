@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>KKLabへようこそ</title>
-</head>
-<body>
-    <h1>KKLabへようこそ</h1>
+<html lang="ja">
 
-<p><a href="members/">メンバー一覧</a></p>
-	
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KKLabへようこそ</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+</head>
+
+<body>
+
+  <!-- This is the first page -->
+  <div id="firstpage" data-role="page">
+    <div data-role="toolbar" data-type="header">
+      <h1>KKLabへようこそ</h1>
+    </div>
+    <div role="main" class="ui-content">
+      <p>KKLabの実験サイトです。</p>
+      <p><a href="#secondpage">メンバー一覧</a></p>
+      <p><a href="members/">（旧ページ）メンバー一覧</a></p>
+    </div>
+    <div data-role="toolbar" data-type="footer">
+      <h2>(c) KKLab</h2>
+    </div>
+  </div>
+
+  <!-- This is the second page -->
+  <div id="secondpage" data-role="page">
+    <div data-role="toolbar" data-type="header">
+      <h1>メンバー一覧</h1>
+    </div>
+    <div class="ui-content" role="main">
+      <p>メンバー一覧</p>
+      <p><a href="#firstpage">ホームへ</a></p>
+    </div>
+    <div data-role="toolbar" data-type="footer">
+      <h4>(c) KKLab</h4>
+    </div>
+  </div>
+
 </body>
+
 </html>
