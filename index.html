@@ -14,7 +14,7 @@
 
     <!-- This is the main page -->
     <div id="main" data-role="page">
-        <div data-role="toolbar" data-type="header">
+        <div data-role="toolbar" data-type="header" data-position="fixed">
             <h1>KKLabへようこそ</h1>
         </div>
         <div role="main" class="ui-content">
@@ -47,7 +47,8 @@
     </div>
 
     <div id="seminar" data-role="page">
-        <div data-role="toolbar" data-type="header">
+        <div data-role="toolbar" data-type="header" data-position="fixed">
+            <a href="#main" class="ui-toolbar-header-button-left ui-button ui-button-inline ui-mini ui-corner-all"><span class="ui-icon ui-icon-caret-l"></span></a>
             <h1>ゼミ活動</h1>
         </div>
         <div role="main" class="ui-content">ゼミ活動について
@@ -59,13 +60,14 @@
             </ul>
             <a href="#main" data-role="button" data-icon="ui-icon-back">戻る</a>
         </div>
-        <div data-role="toolbar" data-type="footer" data-position="fixed">
+        <div data-role="toolbar" data-type="footer">
             <h2>KKLab</h2>
         </div>
     </div>
 
     <div id="message" data-role="page">
-        <div data-role="toolbar" data-type="header">
+        <div data-role="toolbar" data-type="header" data-position="fixed">
+            <a href="#main" class="ui-toolbar-header-button-left ui-button ui-button-inline ui-mini ui-corner-all"><span class="ui-icon ui-icon-caret-l"></span></a>
             <h1>メッセージ</h1>
         </div>
         <div role="main" class="ui-content">
@@ -97,7 +99,8 @@
 
     <!-- This is the second page -->
     <div id="personal" data-role="page">
-        <div data-role="toolbar" data-type="header">
+        <div data-role="toolbar" data-type="header" data-add-back-button="true" data-back-button-text="戻る" data-position="fixed">
+            <a href="#main" class="ui-toolbar-header-button-left ui-button ui-button-inline ui-mini ui-corner-all"><span class="ui-icon ui-icon-caret-l"></span></a>
             <h1>個人サイト一覧</h1>
         </div>
         <form>
@@ -124,7 +127,7 @@
         </ul>
         <a href="#main" data-role="button" data-icon="ui-icon-back">戻る</a>
         <div data-role="toolbar" data-type="footer" data-position="fixed">
-            <h4>KKLab</h4>
+            <h4 data-add-back-button="true">KKLab</h4>
         </div>
     </div>
 
