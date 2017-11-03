@@ -15,16 +15,24 @@
     <!-- This is the main page -->
     <div id="main" data-role="page">
         <div data-role="toolbar" data-type="header">
-            <h1>KKLabへようこそ</h1>
+            <h1>KKLab</h1>
         </div>
         <div role="main" class="ui-content">
-            <p>KKLabの実験サイト</p>
-            <p><a href="#personal">メンバー個人サイト一覧</a></p>
-            <p><a href="members/">（旧ページ）メンバー一覧</a></p>
+            <h2>KKLabの実験サイト</h2>
+            <a href="#about" class="ui-shadow ui-button ui-corner-all ui-button-inline" data-transition="pop">本サイトについて</a>
+            <a href="#personal" class="ui-shadow ui-button ui-corner-all ui-button-inline" data-transition="pop">メンバー個人サイト一覧</a>
+            <a href="members/" class="ui-shadow ui-button ui-corner-all ui-button-inline" data-transition="pop">（旧ページ）メンバー一覧</a>
         </div>
         <div data-role="toolbar" data-type="footer" data-position="fixed">
             <h2>(c) KKLab</h2>
         </div>
+    </div>
+
+    <div id="about" data-role="page" data-dialog="true">
+        <div data-role="toolbar" data-type="header">
+            <h1>KKLab</h1>
+        </div>
+        <div role="main" class="ui-content">河合研究室の実験サイトです。</div>
     </div>
 
     <!-- This is the second page -->
