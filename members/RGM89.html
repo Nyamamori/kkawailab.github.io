@@ -16,12 +16,32 @@
         <div role="main" class="ui-content">
             <p>頑張りましょう</p>
             <p>南無三</p>
+            <button ide="test1" type="button" onClick="go()">ページ2へ<button>
             <a href="#message" data-role="button" data-icon="ui-icon-back">戻る</a>
         </div>
         <div data-role="toolbar" data-type="footer" data-position="fixed">
             <h2>KKLab</h2>
         </div>
     </div>
+    
+    <div id="RGM89-2" data-role-"page">
+        <div role="main">
+            test<br>
+            <button id="test2" type="button" onClick="back()">ページ1へ</button>
+        </div>
+    </div>
+    
+    <javascript>
+        function go(){
+            var main1=document.getElementById=("RGM89-2");
+            location.href=main1;
+        }
+        
+        function back(){
+            var main2=document.getElementById=("RGM89");
+            location.href=main1;
+        }
+            
 </body>
 
 </html>
