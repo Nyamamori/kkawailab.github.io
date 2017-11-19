@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    
+
     <meta name="apple-mobile-web-app-title" content "KKLab">
-<!--
+    <!--
     <link rel="shortcut icon" sizes="16x16" href="icon-16x16.png">
     <link href="icon120.png" rel="apple-touch-icon">
     <link href="icon128.png" rel="icon" sizes="128x128">
 -->
-    
+
     <title>KKLabへようこそ</title>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -33,7 +33,7 @@
                 <a href="#about" class="ui-shadow ui-button ui-corner-all" data-transition="pop">本サイトについて</a>
                 <a href="#seminar" class="ui-shadow ui-button ui-corner-all" data-transition="pop">ゼミでの研究指導</a>
                 <a href="#message" class="ui-shadow ui-button ui-corner-all" data-transition="pop">メンバーからのメッセージ</a>
-                <a href="https://sway.com/AQWplwWmldz4JMjR?ref=Link" class="ui-shadow ui-button ui-corner-all" data-transition="pop">研修旅行（外部サイト、要ログイン）</a>
+                <a href="#trip"  class="ui-shadow ui-button ui-corner-all" data-transition="pop">研修旅行</a>
             </div>
             <h2 class="ui-bar ui-bar-b ui-corner-all">個人サイト</h2>
             <div class="ui-body">
@@ -119,8 +119,25 @@
             <h2>KKLab</h2>
         </div>
     </div>
+    
+    <div id="trip" data-role="page">
+        <div data-role="toolbar" data-type="header" data-position="fixed">
+            <a href="#main" class="ui-toolbar-header-button-left ui-button ui-button-inline ui-mini ui-corner-all"><span class="ui-icon ui-icon-caret-l"></span></a>
+            <h1>研修旅行</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2 class="ui-bar ui-bar-b ui-corner-all">2017年度</h2>
+            <div class="ui-body">
+                <p>本年度は高山市において研修をおこないました。</p>
+                <p>研修の内容および事後の研究については、<a href="https://sway.com/AQWplwWmldz4JMjR?ref=Link">外部サイト</a>（要ログイン）に掲載しています。</p>
+            </div>
+            <a href="#main" data-role="button" data-icon="ui-icon-back">戻る</a>
+        </div>
+        <div data-role="toolbar" data-type="footer" data-position="fixed">
+            <h2>KKLab</h2>
+        </div>
+    </div>
 
-    <!-- This is the second page -->
     <div id="personal" data-role="page">
         <div data-role="toolbar" data-type="header" data-add-back-button="true" data-back-button-text="戻る" data-position="fixed">
             <a href="#main" class="ui-toolbar-header-button-left ui-button ui-button-inline ui-mini ui-corner-all"><span class="ui-icon ui-icon-caret-l"></span></a>
